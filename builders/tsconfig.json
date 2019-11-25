@@ -1,0 +1,12 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es2015",
+        "baseUrl": "./src/",
+        "outDir": "./dist/",        
+        "moduleResolution": "node",
+        "removeComments": true,
+        "module": "commonjs",
+        "skipLibCheck": true
+    }
+}

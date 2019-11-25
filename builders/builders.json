@@ -1,0 +1,10 @@
+{
+    "$schema": "../node_modules/@angular-devkit/architect/src/builders-schema.json",
+    "builders": {
+        "browser-custom": {
+            "implementation": "dist/browser.js",
+            "schema": "../node_modules/@angular-devkit/build-angular/src/browser/schema.json",
+            "description": "Build a browser app with customized options."
+        }
+    }
+}

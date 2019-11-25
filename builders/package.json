@@ -1,0 +1,13 @@
+{
+    "name": "angular-builder-custom-options",
+    "version": "1.0.0",
+    "description": "Angular builder that allows customization",
+    "builders": "builders.json",
+    "scripts": {
+        "tsc": "tsc",
+        "build": "npm run tsc"
+    },
+    "peerDependencies": {
+        "@angular-devkit/build-angular": "~0.803.17"
+    }
+}
